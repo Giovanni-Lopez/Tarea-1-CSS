@@ -1,0 +1,175 @@
+/* Selector Universal */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Selector de Etiqueta */
+body{
+    background-image: url("../img/fondo2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Estilos para el header */
+header{
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+/* Estilos para texto del logo */
+.logo{
+    font-size: 20px;
+    color: white;
+    font-weight: bold; 
+    position: relative;
+}
+
+/* Estilos para agregar image y texto a la par */
+.logo img{
+    vertical-align: middle;
+}
+
+/* Estilos para eliminar el type de lista */
+.menu ul{
+    list-style: none;
+}
+
+/* Estilos de las lista en fila */
+.menu ul li{
+    position: relative;
+    float: left;    
+}
+
+/* Estilos de los enlaces */
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+}
+
+.menu ul li a:hover{
+    background-color: rgba(0, 47, 255, 0.795);
+    
+}
+
+/* Estilo para los iconos */
+.menu ul li i{
+    padding: 10px;
+    color: yellow;
+}
+
+/* Estilos para la etiqueta main2 */
+.main{    
+   text-align: justify;
+}
+
+
+h3 {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 30px;    
+    text-align: center;
+}
+
+.card {
+    color: white;
+    height: auto;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgba(54, 73, 73, 0.774);
+    box-shadow: 10px 10px 10px yellow;
+}
+
+.card img {
+    width: 100%;    
+    height: 40%;
+    border-radius: inherit;
+    filter: grayscale(100%);
+}
+
+.card img:hover {
+    filter: grayscale(0);
+}
+
+.btn {
+    display: block;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: purple;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.card .btn:hover {
+    background-color: black;
+}
+
+.card h2 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.parrafo3 {
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conten {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.calendario{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+.sintesis{
+    color: white;
+    height: auto;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgba(54, 73, 73, 0.774);
+    box-shadow: 10px 10px 10px yellow;
+}
+
+.sintesis .imagen, .nombre , .fecha{
+    text-align: center;
+}
+    
